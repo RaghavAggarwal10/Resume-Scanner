@@ -1,0 +1,126 @@
+.faqSection {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #f0f4f8; // Light blue-gray background
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .faqGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; // Increased gap between left and right sections
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+  
+  .leftColumn {
+    flex: 1;
+    
+    @media (min-width: 768px) {
+      max-width: 300px;
+      margin-right: 2rem; // Additional right margin
+    }
+  }
+  
+  .rightColumn {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; // Reduced gap between FAQ items
+  }
+  
+  .titleBadge {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #36b37e;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    background-color: rgba(54, 179, 126, 0.1); // Light green background
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+  }
+  
+  .faqHeading {
+    font-size: 2.25rem;
+    color: #000;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+  }
+  
+  .supportText {
+    color: #6b7280;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+  
+  .highlight {
+    color: #3b82f6;
+    cursor: pointer;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .faqItem {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0.75rem; // Consistent spacing
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    cursor: pointer;
+    
+    h3 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #111827;
+    }
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f3f4f6; // Light gray background for arrow
+    color: #6b7280;
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .arrowOpen {
+    background-color: #e0e7ff; // Light indigo background when open
+    color: #4f46e5; // Indigo text when open
+    transform: rotate(180deg);
+  }
+  
+  .answer {
+    padding: 0 1.25rem 1.25rem;
+    color: #4b5563;
+    
+    p {
+      margin: 0;
+      line-height: 1.6;
+    }
+  }
