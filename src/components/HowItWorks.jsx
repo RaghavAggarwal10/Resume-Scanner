@@ -8,19 +8,19 @@ const HowItWorks = () => {
       number: "01",
       title: "Upload Your Resume",
       description: "Easily upload your resume in a supported format like PDF or DOCX.",
-      image: "/images/upload-resume.png" // Ensure these paths are correct
+      image1: "/images/upload-resume.png" // Ensure these paths are correct
     },
     {
       number: "02",
       title: "Scan and Analyse",
       description: "Our AI engine evaluates your resume against industry standards and ATS criteria.",
-      image: "/images/scan-analyze.png"
+      image2: "/images/scan-analyze.png"
     },
     {
       number: "03",
       title: "Get detailed Report",
       description: "Receive a comprehensive report with actionable insights to enhance your resume.",
-      image: "/images/detailed-report.png"
+      image3: "/images/detailed-report.png"
     }
   ];
 
