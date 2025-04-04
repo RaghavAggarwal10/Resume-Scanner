@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useRef, useState, useEffect } from "react";
 import Matter from "matter-js";
 import styles from "./FallingText.module.scss";
