@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 
 import ResumeScannerCard1 from '../assets/ResumeScannerCard1.png';

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './LandingPage.module.scss';
-import backgroundImage from '../assets/background-image.png'; // Keep the background image import
 
 const Home = () => {
   return (
